@@ -1,5 +1,19 @@
 Prerequisite
-Java version 11
+    install Java version 11
+    Set JAVA_HOME Environment Variable
+    Set the JAVA_HOME to point to your JDK installation directory.
+
+    Example (on Windows):
+    Go to System Properties → Environment Variables
+    Add a new System Variable:
+        JAVA_HOME = C:\Program Files\Java\jdk-11.0.x
+      Also, add %JAVA_HOME%\bin to your PATH variable:
+        PATH = ...;%JAVA_HOME%\bin
+
+    Verify setup:
+        open cmd
+        echo %JAVA_HOME%
+        java -version
 
 Instructions to Compile and Run (on Windows):
 
